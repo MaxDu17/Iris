@@ -24,8 +24,8 @@ def main():
                                           hidden_units=[10, 20, 10],
                                           n_classes=3,
                                           model_dir="tmp/iris_model")
-
-  classifier.load("tmp/iris_model")
+  #saver - tf.train.Saver()
+  
 
 #classifier object is the neural net!!!!!
   # Define the test inputs
