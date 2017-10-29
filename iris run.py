@@ -8,7 +8,7 @@ import urllib
 import numpy as np
 import tensorflow as tf
 
-
+IRIS_TEST = "iris_test.csv"
 
 def main():
 
